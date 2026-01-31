@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+# متجر الملابس - Clothing Store App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## المميزات الجديدة / New Features
 
-## Get started
+### 🎨 تغيير الثيم / Theme Switching
 
-1. Install dependencies
+- **الوضع الفاتح / Light Mode**: التصميم الافتراضي بألوان فاتحة
+- **الوضع الداكن / Dark Mode**: تصميم داكن أنيق للعيون
 
-   ```bash
-   npm install
-   ```
+### 🌐 تغيير اللغة / Language Switching
 
-2. Start the app
+- **العربية**: واجهة كاملة باللغة العربية مع دعم RTL
+- **English**: Full English interface with LTR support
 
-   ```bash
-   npx expo start
-   ```
+### 📱 كيفية الاستخدام / How to Use
 
-In the output, you'll find options to open the app in a
+1. افتح تبويب **الملف الشخصي / Profile**
+2. ستجد في الأعلى خيارين:
+   - **الوضع الداكن / Dark Mode**: مفتاح تبديل (Switch) لتفعيل/إلغاء الوضع الداكن
+   - **اللغة / Language**: اضغط لتبديل بين العربية والإنجليزية
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🎯 الشاشات المتوفرة / Available Screens
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **الرئيسية / Home**
+   - ترحيب شخصي
+   - بانر العروض
+   - الفئات
+   - الأكثر مبيعاً
+   - وصل حديثاً
 
-## Get a fresh project
+2. **استكشف / Explore**
+   - شريط البحث
+   - شبكة المنتجات
+   - زر المفضلة
 
-When you're ready, run:
+3. **السلة / Cart**
+   - قائمة المنتجات
+   - التحكم بالكمية
+   - حساب الإجمالي
+   - زر إتمام الطلب
+
+4. **الملف الشخصي / Profile**
+   - معلومات المستخدم
+   - **تبديل الثيم**
+   - **تبديل اللغة**
+   - الإعدادات
+   - تسجيل الخروج
+
+### 🎨 الألوان / Colors
+
+#### الوضع الفاتح / Light Mode
+
+- خلفية: `#F2F2F7`
+- الكروت: `#FFFFFF`
+- النص: `#000000`
+- الأساسي: `#000000`
+
+#### الوضع الداكن / Dark Mode
+
+- خلفية: `#000000`
+- الكروت: `#1C1C1E`
+- النص: `#FFFFFF`
+- الأساسي: `#FFFFFF`
+
+### 🚀 التشغيل / Running
 
 ```bash
-npm run reset-project
+npm run web
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+أو / Or
 
-## Learn more
+```bash
+npm start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+تم التطوير بواسطة Antigravity AI 🤖
